@@ -12,8 +12,9 @@ Step 3 - Add the Google services Gradle plugin (build.gradle.kts(Module: app))
 Step 4 - Add the dependency for the Google services Gradle plugin (build.gradle.kts(Project: your_app_name))
     id("com.google.gms.google-services") version "4.4.0" apply false
     
-Step 5 - Add intent filter in AndroidManifest.xml in <activity 
-                <intent-filter>
+Step 5 - Add intent filter in AndroidManifest.xml in <activity >
+
+            <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.BROWSABLE"/>
