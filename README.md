@@ -1,6 +1,7 @@
 Step 1 - connect your app to firebase
 
 Step 2 - add dependency in gradle (build.gradle.kts(Module: app))
+
     // When using the BoM, you don't specify versions in Firebase library dependencies
     implementation (platform("com.google.firebase:firebase-bom:32.7.0"))
     implementation ("com.google.firebase:firebase-dynamic-links-ktx")
