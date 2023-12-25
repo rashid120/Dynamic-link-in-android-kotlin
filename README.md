@@ -8,9 +8,11 @@ Step 2 - add dependency in gradle (build.gradle.kts(Module: app))
     implementation ("com.google.firebase:firebase-analytics-ktx")
     
 Step 3 - Add the Google services Gradle plugin (build.gradle.kts(Module: app))
+
     id("com.google.gms.google-services")
     
 Step 4 - Add the dependency for the Google services Gradle plugin (build.gradle.kts(Project: your_app_name))
+
     id("com.google.gms.google-services") version "4.4.0" apply false
     
 Step 5 - Add intent filter in AndroidManifest.xml in <activity >
